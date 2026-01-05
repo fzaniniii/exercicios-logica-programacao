@@ -28,4 +28,9 @@ Como subir uma pasta para meu Repositório no GitHub.
 
         Agora basta enviar novamente "git push -u origin main" e ele irá pedir ou um token ou login e senha do github.
         Lembrete: É necessário autorizar o Processo. Agora sim.
+    7) Por fim, lembre-se, ao atualizar algo no código em seu computador, você pode rodar esta sequência:
+       1) git status // Para ver o que foi atualizado
+       2) git add . // para adicionar tudo
+       3) git commit -m "O que mudou" // para atualizar do que se trata
+       4) git push origin main // para enviar pro Github
 
