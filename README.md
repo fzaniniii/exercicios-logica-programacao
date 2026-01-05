@@ -33,4 +33,11 @@ Como subir uma pasta para meu Repositório no GitHub.
        2) git add . // para adicionar tudo
        3) git commit -m "O que mudou" // para atualizar do que se trata
        4) git push origin main // para enviar pro Github
+    8) APAGOU SEU PROJETO DO COMPUTADOR? 
+       1) se ele ainda está no Github, você vai em repositórios, escolhe o repositório que quer, vai em "<Code>", e em HTTPS, copia o link e agora volta no VSCode > File >  Open Folder > cria uma pasta. Pasta selecionada, vai em New Terminal > digita:
+          1) git clone e cola o link que copiou do repositório (Conforme acima)
+          2) Isso fará o projeto ser clonado por inteiro para dentro da pasta que acabou de criar.
+          3) Lembrando: para acessar a pasta que está seu arquivo, você precisa digitar no terminal, cd, o nome da poasta e pronto, já pode executar o arquivo que precisa.
+          4) Lembrete 2: Se seu arquivo está dentro de outra pasta, para executar no terminal, você precisa digitar:
+             1) node nomedapasta/index.js e ele será executado.
 
