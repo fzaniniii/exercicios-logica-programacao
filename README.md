@@ -27,5 +27,5 @@ Como subir uma pasta para meu Repositório no GitHub.
         Obs: Se for a primeira vez que estiver fazendo isso, pode dar um erro de unable to access. Ou seja, você ainda não inseriu sua senha de login no github para autenticação ou você já tem resquício de login em outra conta no seu sistema. Se for o caso, será necessário apagar a senha antiga. Para isso, no windows, digite no menu iniciar "Gerenciador de Credenciais" > Credenciais do windows > encontra a do Github e remove.
 
         Agora basta enviar novamente "git push -u origin main" e ele irá pedir ou um token ou login e senha do github.
-        Lembrete: É necessário autorizar o Processo.
+        Lembrete: É necessário autorizar o Processo. Agora sim.
 
