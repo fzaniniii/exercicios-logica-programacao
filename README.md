@@ -40,4 +40,6 @@ Como subir uma pasta para meu Repositório no GitHub.
           3) Lembrando: para acessar a pasta que está seu arquivo, você precisa digitar no terminal, cd, o nome da poasta e pronto, já pode executar o arquivo que precisa.
           4) Lembrete 2: Se seu arquivo está dentro de outra pasta, para executar no terminal, você precisa digitar:
              1) node nomedapasta/index.js e ele será executado.
+    9) COMANDOS NOVOS:
+       1)  git pull: Eu criei um arquivo diretamente no Git web e ele não estava no meu computador, ao tentar atualizar no pc o git, dava erro, e este erro era por que o Github entendia que não havia sincronia entre os arquivos. Para resolver isso, eu usei o comando git pull origin main e ele simplesmente baixou os arquivos criados no Gitweb para minha pasta e ficou tudo certo, possibilitando fazer um novo commit após isso.
 
