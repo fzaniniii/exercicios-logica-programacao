@@ -1,0 +1,30 @@
+//FUNÇÕES
+
+//exemplo de função:
+
+function torrar() //a função sempre tem esse parenteses ao lado
+
+//a função pode ou não receber um parâmetro de entrada ou de saída mas ela sempre terá uma ação
+
+Exemplo:
+
+torrar() //Aqui é onde estamos chamando a função abaixo e podemos chamar ela várias vezes
+injetarPao() //Chamado a função injetar pão
+
+function torrar(){ // essa função só é executada se ela for chamada antes disso
+    console.log("Torrando pão")
+}
+
+function injetarPao(){
+    console.log("Preparando para injetar o Pão")
+    console.log("Finalizado")
+}
+
+//também podemos inserir uma função dentro de outra função... no caso acima, poderíamos ter
+//inserido dentro da function torrar() {
+                    //console.log("Torrando pão")
+                    //injetarPao()
+//              }
+// fazendo isso, não precisaríamos inserir o injetarPao() na linha 4 abaixo de torrar() linha 3...
+// assim, toda vez que a gente chamasse a função torrar() ele também chamaria a função (injetarPao)
+
