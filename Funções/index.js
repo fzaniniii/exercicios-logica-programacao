@@ -20,3 +20,25 @@ function injetarPao(){
 //              }
 // fazendo isso, não precisaríamos inserir o injetarPao() na linha 4 abaixo de torrar() linha 3...
 // assim, toda vez que a gente chamasse a função torrar() ele também chamaria a função (injetarPao)
+
+console.log("------")
+
+main() // Aqui é onde chamamos a função e o resto abaixo é onde criamos as funções
+
+function main(){
+    getData()
+    checkValues()
+    sendToDatabase()
+}
+
+function getData(){
+    console.log("Pegando dados do usuários")    
+}
+
+function checkValues(){
+    console.log("validando dados")
+}
+
+function sendToDatabase(){
+    console.log("cadastrando dados")
+}
