@@ -159,3 +159,5 @@ end
 
 enviar_dados
 
+//Qual é o principal objetivo de usar funções em programação?
+//Promover a reutilização de código e modularizar a lógica em partes gerenciáveis
