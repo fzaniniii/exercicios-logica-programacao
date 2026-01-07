@@ -149,3 +149,27 @@ puts "Seja bem vindo #{user_name}"
 //Usando a palavra-chave "return" seguida pelo valor que deseja retornar
 
 //**MINHA DOR:** Preciso estudar novamente funções com retorno pois não gravei direito.
+
+//REGRA DE OURO:
+//console.log mostra o resultado.
+//return entrega.
+
+//Falha comum que você precisa evitar:
+
+//❌ “Executou algo, então retornou algo”
+//✅ Só retorna o que está depois do return
+
+//Regra das 3 perguntas (use sempre)
+
+//Antes de escrever uma função, responda:
+
+//O que entra? → parâmetros
+//O que acontece lá dentro? → lógica
+//O que sai? → return
+
+**//VISUAL MENTAL (GRAVE ISSO)**
+"Fábio Henrique Zanini"
+        ↓ split(" ")
+["Fábio", "Henrique", "Zanini"]
+        ↓ [2]
+      "Zanini"

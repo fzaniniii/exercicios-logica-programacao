@@ -30,3 +30,105 @@ function getFirstName(name, splitChar){ //aqui usei o splitChar = " " pois caso 
 console.log("---PRÓXIMO EXERCÍCIO---")
 
 //---próximo exercício---
+
+function somar(a, b){
+    return a + b
+}
+
+let resultado2 = somar(2, 3)
+
+console.log(resultado2)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function dizerOi(){
+    return "Oi"
+}
+
+let msg = dizerOi()
+console.log(msg)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function subtrair(c, d){
+    return c - d
+}
+
+let resultado3 = subtrair(5, 2)
+console.log(resultado3)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function desconto(preco){
+    return preco - 10
+}
+
+let valorFinal = desconto(57.9)
+console.log(valorFinal)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function triplo(n){
+    console.log(n * 3)
+}
+
+let resultado4 = triplo(3)
+console.log(resultado4)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function maiorDeIdade(idade){
+    if (idade >= 18){
+        return "Maior"
+    }
+    return "Menor"
+}
+
+let idade2 = maiorDeIdade(18)
+console.log(idade2)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function dobrar(x){
+    return x * 2
+}
+
+let final = dobrar(5) + 1
+console.log(final)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function teste(){
+    return
+}
+
+let valor = teste()
+console.log(valor)
+
+console.log("---PRÓXIMO EXERCÍCIO---")
+
+//---próximo exercício---
+
+function nomePrimeiro(nume, separador){
+    let partes = nume.split(separador)
+    let ultimoNume = partes[2]
+    return ultimoNume
+}
+
+let nime = nomePrimeiro("Fábio Henrique Zanini", " ")
+console.log(nime)
+
