@@ -118,3 +118,18 @@ function generateInvoice(invoice){
 //- Teclado mecânico: R$ 129.99
 //- Monitor: R$ 899.99
 //- Tv 100 polegadas: R$ 10000.90
+
+
+//PARA FIXAR:
+
+//Qual é a estrutura básica dos dados em um objeto JSON?
+//R: Pares de chave-valor delimitados por ":" e separados por ","
+
+//Qual é o formato de um valor numérico dentro de um objeto JSON?
+//R: Não precisa de aspas, apenas o número
+
+//O que significa a sigla JSON em programação?
+//R: JavaScript Object Notation
+
+//Qual é a principal finalidade do JSON em programação?
+//R: Armazenar e trocar dados estruturados entre diferentes sistemas
